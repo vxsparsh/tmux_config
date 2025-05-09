@@ -11,8 +11,9 @@ cd tmux_config
 ./install.sh
 rm -rf icons-in-terminal
 ```
-
+```
     |\__/,|   (`\
   _.|o o  |_   ) )
 -(((---(((--------
 meow
+```
