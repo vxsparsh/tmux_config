@@ -10,17 +10,17 @@ echo
 
 sudo apt install tmux xclip dconf-cli
 
-setup="[+] Setting up h00dy tmux config..."
+setup="[+] Setting up tmux config..."
 for ((i=0; i<${#setup}; i++)); do
     echo -n "${setup:$i:1}"
     sleep 0.05
 done
 echo
 
-cp h00dy_tmux.conf ~/.tmux.conf
+cp snipesec_tmux.conf ~/.tmux.conf
 mkdir -p ~/Scripts
-cp vpnIP_VM.sh ~/Scripts/vpnIP_VM.sh
-chmod +x ~/Scripts/vpnIP_VM.sh
+cp showIP_VM.sh ~/Scripts/showIP_VM.sh
+chmod +x ~/Scripts/showIP_VM.sh
 
 tmux_plugin="adding tmux plugin manager..."
 for ((i=0; i<${#tmux_plugin}; i++)); do
